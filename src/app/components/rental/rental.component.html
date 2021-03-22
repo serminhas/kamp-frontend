@@ -8,11 +8,11 @@
       <th>İade Günü</th>
     </tr>
   </thead>
-  <tr *ngFor="let brand of brands">
-    <td>{{ rental.id }}</td>
-    <td>{{ rental.carId }}</td>
-    <td>{{ rental.customerId }}</td>
-    <td>{{ rental.rentDate }}</td>
-    <td>{{ rental.returnDate }}</td>
+  <tr *ngFor="let rental of rentals">
+    <td>{{ rental.Id }}</td>
+    <td>{{ rental.CarId }}</td>
+    <td>{{ rental.CustomerId }}</td>
+    <td>{{ rental.RentDate }}</td>
+    <td>{{ rental.ReturnDate }}</td>
   </tr>
 </table>

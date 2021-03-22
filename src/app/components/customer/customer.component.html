@@ -6,9 +6,9 @@
       <th>Firma Adı</th>
     </tr>
   </thead>
-  <tr *ngFor="let color of colors">
-    <td>{{ customer.id }}</td>
-    <td>{{ customer.userId }}</td>
-    <td>{{ customer.companyName }}</td>
+  <tr *ngFor="let customer of customers">
+    <td>{{ customer.Id }}</td>
+    <td>{{ customer.UserId }}</td>
+    <td>{{ customer.CompanyName }}</td>
   </tr>
 </table>
